@@ -9,6 +9,7 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return clone;
 }
 var deleteFromObjectByKey (object, key){
+  var clone = Object.assign({}, object);
   delete clone[key];
-  return object;
+  return clone;
 }
