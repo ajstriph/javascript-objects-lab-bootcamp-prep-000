@@ -4,4 +4,3 @@ var obj = {prop: 1};
 object[key] = value;
   return updateObjectWithKeyAndValue;
 }
-
