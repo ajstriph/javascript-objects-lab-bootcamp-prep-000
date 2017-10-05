@@ -8,4 +8,3 @@ function updateObjectWithKeyAndValue(object, key, value) {
   clone[key]=value;
   return clone;
 }
-
