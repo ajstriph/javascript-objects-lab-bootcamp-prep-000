@@ -4,4 +4,5 @@ var obj = {prop: 1};
 object['prop 2'] = 2;
   return updateObjectWithKeyAndValue;
 }
-updateObjectWithKeyAndValue = {prop:1, prop2: 2};
+updateObjectWithKeyAndValue = {obj, 'prop 2', 2};
+
