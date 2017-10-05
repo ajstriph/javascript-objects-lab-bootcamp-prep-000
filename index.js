@@ -5,6 +5,6 @@ object[key] = value;
 }
 function updateObjectWithKeyAndValue(object, key, value) {
   var clone = Object.assign({}, object);
-  clone.'prop 2'=2;
+  clone[key]=value;
   return object;
 }
