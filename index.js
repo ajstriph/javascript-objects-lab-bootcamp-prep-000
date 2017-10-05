@@ -5,4 +5,3 @@ object['prop 2'] = 2;
   return updateObjectWithKeyAndValue;
 }
 updateObjectWithKeyAndValue(obj, 'prop 2', 2);
-
