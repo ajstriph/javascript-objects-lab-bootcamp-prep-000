@@ -8,9 +8,4 @@ function updateObjectWithKeyAndValue(object, key, value) {
   clone[key]=value;
   return clone;
 }
-var deleteFromObjectByKey = function (object, key){
-var obj = {[key]:1};
-var newObj = Object.assign({}, obj);
-delete newObj.[key];
-  return object
-}
+
