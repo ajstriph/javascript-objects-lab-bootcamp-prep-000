@@ -4,3 +4,7 @@ var obj = {prop: 1};
 object['prop 2'] = 2;
   return updateObjectWithKeyAndValue;
 }
+var destructivelyUpdateObjectWithKeyAndValue (object, key, value){
+  obj['prop 2']=2;
+  return object;
+}
